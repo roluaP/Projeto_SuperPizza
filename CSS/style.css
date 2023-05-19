@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../imagens/bg_site.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: rgba(255, 228, 196, 0.8);
+    width: 1190px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+header img {
+    width: 250px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+a.menu:link {
+    color: #B83229;
+}
+
+a.menu:visited {
+    color: #B83229;
+}
+
+a.menu:hover {
+    color: #005920;
+}
+
+a.menu:active {
+    color: #B83229;
+}
+
+.principal article h1 {
+    color: #B83229;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3rem;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.principal article p {
+    color: #005920;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.cardapio p, .local p {
+    color: #005920;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.cardapio h2, .local h2 {
+    color: #B83229;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.secundario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardapio, .local {
+    width: 565px;
+}
+
+footer {
+    background-color: rgba(184, 51, 41, 0.62);
+    height: 100px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer img {
+    float: left;
+}
+
+footer a {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.assinatura {
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #B83229;
+}
